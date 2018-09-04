@@ -1,6 +1,6 @@
 # PersonalDependencyLibrary
-## Maven个人依赖
-### 在Pom中配置如下：
+## Maven个人依赖仓库
+### 在Pom中资源来源配置如下：
 
     <repositories>
       <repository>
@@ -11,4 +11,11 @@
           注意：master一定要加上
       </repository>
     </repositories>
+### Pom依赖如下：
+#### 1、Mybatis自动构建model、mapper、xml
+                <dependency>
+			<groupId>com.hws</groupId>
+			<artifactId>MybatisGenerator</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
